@@ -2,8 +2,7 @@ package TestPackage;
 
 public class GitTest {
 	public static void main(String[] args) {
-		
-		
+
 		int range = 10;
 		int [] fibnum = new int [range];
 		fibnum [0] =0;
