@@ -32,5 +32,14 @@ public class ForNewBranch {
 
 		return 0;
 	}
+	public static int minValue(int [] data){
+		
+	}
+	public static int sumValue (int [] data){
+		
+	}
+	public static double avgValue(int [] data){
+		
+	}
 
 }
