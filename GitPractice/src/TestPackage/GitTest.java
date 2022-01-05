@@ -34,4 +34,6 @@ public class GitTest {
 		}
 		return res;
 	}
+	public static void newMethod(){
+	}
 }
