@@ -6,13 +6,13 @@ public class ItemClass {
 		private double price;
 		private int quantity;
 		// creating the default constructor
-		public Item() {
+		public ItemClass() {
 			this.name = "";
 			this.price = 0;
 			this.quantity = 0;
 		}
 		// creating the parameterized constructor
-		public Item(String name, double price, int quantity) {
+		public ItemClass(String name, double price, int quantity) {
 			super();
 			this.name = name;
 			this.price = price;
@@ -41,4 +41,5 @@ public class ItemClass {
 		@Override
 		public String toString() {
 			return name + "................... $" + price + "(" + quantity + ")";
+		}
 }
